@@ -19,11 +19,11 @@ public abstract class BaseActivity extends Activity {
         super.onCreate(savedInstanceState, persistentState);
         // 获取布局文件
         setContentView(getLayoutId());
-        //初始化控件 设置了ButterKnife 初始化控件就不需要了
+        // 初始化控件 设置了ButterKnife 初始化控件就不需要了
         initView();
-        //设置数据
+        // 设置数据
         initData();
-        //设置监听
+        // 设置监听
         initListener();
     }
 
