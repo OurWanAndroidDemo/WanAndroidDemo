@@ -5,13 +5,14 @@ import android.os.Bundle;
 import android.os.PersistableBundle;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * @author zt
  * @date 2021/5/30 21:56
  * @description BaseActivity
  **/
-public abstract class BaseActivity extends Activity {
+public abstract class BaseActivity extends AppCompatActivity {
     private static final String TAG = "BaseActivity";
 
     @Override
