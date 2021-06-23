@@ -24,9 +24,9 @@ class MainActivity : BaseActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.search -> Toast.makeText(this, "search", Toast.LENGTH_LONG).show();
-            R.id.delete -> Toast.makeText(this, "delete", Toast.LENGTH_LONG).show();
-            R.id.settings -> Toast.makeText(this, "settings", Toast.LENGTH_LONG).show();
+            R.id.search -> Toast.makeText(this, "search", Toast.LENGTH_SHORT).show();
+            R.id.delete -> Toast.makeText(this, "delete", Toast.LENGTH_SHORT).show();
+            R.id.settings -> Toast.makeText(this, "settings", Toast.LENGTH_SHORT).show();
         }
 
         return true
