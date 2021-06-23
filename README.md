@@ -1,4 +1,5 @@
 # WanAndroidDemo
 ..
-I am a Readme
-随时随
+i will carry you~ 
+no no no 
+i neeed you carry me~
